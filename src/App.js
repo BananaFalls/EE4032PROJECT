@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom";
 import {useNavigate} from "react-router-dom";
 import {useState} from 'react';
-import Web3 from "web3";
+import {Web3} from 'web3';
 
 import './App.css';
 import Login from "./components/login/login";
