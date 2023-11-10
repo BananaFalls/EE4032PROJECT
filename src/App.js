@@ -11,6 +11,7 @@ import History from "./components/history/history";
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from "./contracts/config";
 
 const { ethers } = require("ethers");
+const 
 
 export default function App() {
     const [haveMetamask, setHaveMetamask] = useState(true);     // check if the browser has MetaMask installed. 
