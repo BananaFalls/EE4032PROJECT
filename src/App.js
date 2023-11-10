@@ -1,7 +1,6 @@
 import {Routes, Route} from "react-router-dom";
 import {useNavigate} from "react-router-dom";
 import {useState} from 'react';
-import {ethers} from 'ethers';
 import Web3 from "web3";
 
 import './App.css';
@@ -10,6 +9,8 @@ import Profile from "./components/profile/profile";
 import Storage from "./components/storage/storage";
 import History from "./components/history/history";
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from "./contracts/config";
+
+const { ethers } = require("ethers");
 
 export default function App() {
     const [haveMetamask, setHaveMetamask] = useState(true);     // check if the browser has MetaMask installed. 
